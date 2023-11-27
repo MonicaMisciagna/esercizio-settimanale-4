@@ -1,0 +1,205 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 1em;
+   
+    width: 100%;
+
+}
+header{
+    background-color: #FEC016;
+    border-bottom: 1px solid black;
+    padding:2em;
+    display: flex;
+    justify-content: space-between;
+   
+    position: sticky;
+    top:0;
+
+    z-index: 2;
+}
+svg, nav {overflow: hidden;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+nav ul li{
+    padding: 0.5em 1em;
+    display: inline-block
+}
+nav ul li:last-child{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+   
+}
+#blocco1{
+    background-color: #FEC016;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+h1{
+    margin-left: 0.1em;
+    font-family: 'Spectral', serif;
+    font-size: 6em;
+    font-weight:400;
+}
+ #blocco1 p{    
+    width: 400px;
+    margin-left: 1em;
+    padding-top: 0.2em;
+    font-size:1.3em ;
+    padding-bottom: 1em;
+}
+#blocco1 button{  margin-left: 1em;
+   background-color: black;
+   color: white;
+   padding: 0.5em 2em;
+   border-radius: 20px;
+  
+}
+
+
+#emme{
+   
+    width: 40%;
+
+}
+
+
+section{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+    border-bottom: 1px solid #F2F2F2 ;
+  
+}
+.nota{
+   width:300px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top:1em;
+    
+}
+.trends{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+#num1{
+    font-family: 'Spectral', serif; 
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #F2F2F2;
+    padding-right: 0.2em;
+}
+#num2{
+    font-family: 'Spectral', serif; 
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #F2F2F2;
+    padding-right: 0.2em;
+}#num3{
+    font-family: 'Spectral', serif; 
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #F2F2F2;
+    padding-right: 0.2em;
+}
+#num4{
+    font-family: 'Spectral', serif; 
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #F2F2F2;
+    padding-right: 0.2em;
+}
+#num5{
+    font-family: 'Spectral', serif; 
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #F2F2F2;
+    padding-right: 0.2em;
+}
+#num6{
+    font-family: 'Spectral', serif; 
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #F2F2F2;
+    padding-right: 0.2em;
+}
+section img{
+    width: 1.7em;
+}
+#img1{
+    border-radius: 100%;
+}
+
+
+#data1{
+    color:  #6B6B6B;
+}
+#data2{
+    color:  #6B6B6B;
+}
+#data3{
+    color:  #6B6B6B;
+}
+#data4{
+    color:  #6B6B6B;
+}
+#data5{
+    color:  #6B6B6B;
+}
+#data6{
+    color:  #6B6B6B;
+}
+h3{
+    font-weight: 1.3em;
+    font-weight: bold;
+}
+main{
+ display: flex;
+justify-content: center;  
+padding-top: 3em;
+}
+ 
+aside button{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #6B6B6B ;
+}
+aside ul{
+    display: flex;
+    justify-content: flex-start;
+}
+aside ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 0.2em
+}
+article{
+    display: flex;
+flex-direction:column;
+}
+article div{
+    width:50;
+
+}
+.img {
+    width: 50%;
+   
+}
+p>img{
+    border-radius: 100%;
+}
+.articolo{
+    display: flex;
+    justify-content: center;
+}
+.articolo div{
+    width: 50%;
+}
