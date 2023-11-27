@@ -1,7 +1,7 @@
 html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 0.9em;
    
     width: 100%;
 
@@ -18,7 +18,7 @@ header{
 
     z-index: 2;
 }
-svg, nav {overflow: hidden;
+header svg, nav {overflow: hidden;
     margin-right: 1em;
     margin-left: 1em;
 }
@@ -161,36 +161,53 @@ h3{
     font-weight: bold;
 }
 main{
+    width: 90%;
+    margin: 0 ;
+    padding: 2em 0;
  display: flex;
 justify-content: center;  
 padding-top: 3em;
 }
- 
+aside{
+    width: 35%;
+}
+ aside h4{
+    font-weight: bold;
+    padding-bottom: 0.5em;
+ }
 aside button{
     background-color: white;
     border-radius: 3px;
-    border: 1px solid #6B6B6B ;
+    border: 1px solid #6b6b6b6e ;
+    margin:0.3em 0.3em;
+    color: #1313137c;
 }
 aside ul{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 aside ul a{
     list-style: none;
     text-decoration: none;
-    color: black;
-    margin: 0.2em
+    color:  #1313137c;
+    padding: 0.2em 0.3em;
+   
 }
+
+   
 article{
+    width: 65%;
     display: flex;
 flex-direction:column;
-}
-article div{
-    width:50;
 
 }
+article div{
+ margin-left: 1.5em;
+}
 .img {
-    width: 50%;
+   width: 100%;
+   margin-top: 1.3em;
    
 }
 p>img{
@@ -200,6 +217,60 @@ p>img{
     display: flex;
     justify-content: center;
 }
+.articolo span{
+ display: inline-block;
+}
 .articolo div{
     width: 50%;
 }
+.articolo>div{
+   padding-right: 2em;
+}
+aside{
+    margin-left: 2em;
+}
+
+#segnalibro1{
+    display: inline;
+    margin-left: 15em;
+    margin-bottom: 6em;
+}
+
+#segnalibro2{
+    display: inline;
+    margin-left: 15em;
+    margin-bottom: 6em;
+}
+
+#segnalibro3{
+    display: inline;
+    margin-left: 15em;
+    margin-bottom: 6em;
+}
+
+#segnalibro4{
+    display: inline;
+    margin-left: 15em;
+    margin-bottom: 6em;
+}
+
+#segnalibro5{
+    display: inline;
+    margin-left: 15em;
+    margin-bottom: 6em;
+}
+
+#segnalibro6{
+    display: inline;
+    margin-left: 15em;
+    margin-bottom: 6em;
+}
+.articolo div:first-child{
+    margin-left: 2em;
+}
+aside ul {
+    margin-top: 2em;
+    border-top: 1px solid #6b6b6b34;
+    padding-top: 1em;
+}
+
