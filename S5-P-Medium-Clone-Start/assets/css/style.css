@@ -25,13 +25,27 @@ header svg, nav {overflow: hidden;
 nav ul li{
     padding: 0.5em 1em;
     display: inline-block
+    
 }
+
+#navBut{
+    transition: background-color 500ms linear;
+}
+#navBut.scrolled{
+    background-color: #538724;
+    
+}
+
+
+
 nav ul li:last-child{
     background-color: black;
     color: white;
     border-radius: 20px;
+    
    
 }
+
 #blocco1{
     background-color: #FEC016;
     display: flex;
@@ -206,7 +220,7 @@ article div{
  margin-left: 1.5em;
 }
 .img {
-   width: 100%;
+   width:200px;
    margin-top: 1.3em;
    
 }
@@ -220,11 +234,9 @@ p>img{
 .articolo span{
  display: inline-block;
 }
-.articolo div{
-    width: 50%;
-}
+
 .articolo>div{
-   padding-right: 2em;
+   width: 70%;
 }
 aside{
     margin-left: 2em;
@@ -265,12 +277,13 @@ aside{
     margin-left: 15em;
     margin-bottom: 6em;
 }
-.articolo div:first-child{
-    margin-left: 2em;
-}
+
 aside ul {
     margin-top: 2em;
     border-top: 1px solid #6b6b6b34;
     padding-top: 1em;
 }
-
+.navBut {
+    transition: all 0.3s;
+  }
+  
